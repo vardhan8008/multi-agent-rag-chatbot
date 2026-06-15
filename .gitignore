@@ -1,27 +1,10 @@
-# Python
 __pycache__/
-*.py[cod]
-*.egg-info/
 .venv/
 venv/
-env.example/
-
-# Env / secrets
-.env
-
-# Data (vector store + uploaded docs)
 data/
-!data/.gitkeep
-
 docs/
-
-
-# Caches
 .pytest_cache/
 .mypy_cache/
 .streamlit/secrets.toml
-
-# OS / editor
-.DS_Store
 .vscode/
-.idea/
+
