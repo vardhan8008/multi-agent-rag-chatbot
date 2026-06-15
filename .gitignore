@@ -4,7 +4,7 @@ __pycache__/
 *.egg-info/
 .venv/
 venv/
-env/
+env.example/
 
 # Env / secrets
 .env
@@ -12,6 +12,9 @@ env/
 # Data (vector store + uploaded docs)
 data/
 !data/.gitkeep
+
+docs/
+
 
 # Caches
 .pytest_cache/
